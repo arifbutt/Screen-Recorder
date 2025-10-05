@@ -27,7 +27,32 @@ The application uses modern browser APIs to achieve the recording functionality:
 4.  **MediaRecorder:** A `MediaRecorder` is used to encode the `mixedStream` into a **WebM** file format, collecting the data chunks until the user stops the recording.
 
 **Note:** This application is entirely client-side. No data is sent to any external server.
+-----
+## 🚀 Installation and Usage (Desktop Application)
 
+This application is distributed as a lightweight, native executable for Windows, macOS, and Linux, built using the **Neutralinojs** framework.
+
+### 📥 Download
+
+To use the application, navigate to the **`dist`** folder in the repository and download the **entire application folder** for your operating system. Alternatively, check the repository's **Releases** page for pre-built, zipped binaries.
+
+| Operating System | Folder Path (in repo) | Key Files Included |
+| :--- | :--- | :--- |
+| **Windows** | `dist/my-screen-recorder-win_x64` | `my-screen-recorder-win_x64.exe`, `resources.neu` |
+| **macOS** | `dist/my-screen-recorder-mac_x64` | `my-screen-recorder-mac_x64`, `resources.neu` |
+| **Linux** | `dist/my-screen-recorder-linux_x64` | `my-screen-recorder-linux_x64`, `resources.neu` |
+
+***Note:*** *You may need to grant execution permissions or bypass OS security warnings the first time you run the application, as it is a custom-built executable.*
+
+### ⚙️ How to Run
+
+1.  **Download:** Download the correct executable file and its companion resources folder (e.g., the entire `my-screen-recorder-win_x64` folder).
+2.  **Run:** Double-click the executable file (e.g., `my-screen-recorder-win_x64.exe`).
+3.  **Maximize/Restore:** If the window is maximized, you can **drag the title bar** or **double-click the title bar** to restore it to the previous size.
+4.  Click **"Start Recording"** and select the screen, window, or tab you wish to share.
+5.  Click **"Stop"** to preview and download your final `.webm` file.
+
+-----
 ## ⚙️ Setup and Usage
 
 Since the project is a single HTML file, setup is very straightforward:
